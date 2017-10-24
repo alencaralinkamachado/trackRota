@@ -5,6 +5,11 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { HomePage } from '../pages/home/home';
 import { ListPage } from '../pages/list/list';
+//https://maps.google.com/maps/api/js?key=
+//AIzaSyA1lgTn2BQ2ZDHgvVKeDN174dousm8btkI&libraries=visualization,places,drawing
+//ionic cordova plugin add cordova-plugin-googlemaps --variable API_KEY_FOR_ANDROID="AIzaSyDD-urlcSC7usypHqukN6--uqNcnWgkGUI&libraries=visualization,places,drawing"
+
+//AIzaSyDD-urlcSC7usypHqukN6--uqNcnWgkGUI
 
 @Component({
   templateUrl: 'app.html'
@@ -21,7 +26,7 @@ export class MyApp {
 
     // used for an example of ngFor and navigation
     this.pages = [
-      { title: 'Home', component: HomePage },
+      { title: 'Mapa', component: HomePage },
       { title: 'List', component: ListPage }
     ];
 

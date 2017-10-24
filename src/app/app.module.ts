@@ -8,6 +8,11 @@ import { ListPage } from '../pages/list/list';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import { RotaProvider } from '../providers/rota/rota';
+
+import {
+  GoogleMaps
+ } from '@ionic-native/google-maps';
 
 @NgModule({
   declarations: [
@@ -28,7 +33,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   providers: [
     StatusBar,
     SplashScreen,
-    {provide: ErrorHandler, useClass: IonicErrorHandler}
+    {provide: ErrorHandler, useClass: IonicErrorHandler},
+    RotaProvider, GoogleMaps
   ]
 })
 export class AppModule {}

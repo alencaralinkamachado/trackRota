@@ -2,5 +2,7 @@
   "name": "trackRota",
   "app_id": "7c60bd2c",
   "type": "ionic-angular",
-  "integrations": {}
+  "integrations": {
+    "cordova": {}
+  }
 }
